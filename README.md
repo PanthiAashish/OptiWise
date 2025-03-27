@@ -18,8 +18,6 @@ Option pricing models are implemented in [Python 3.7](https://www.python.org/dow
 
 When data is fetched from Yahoo Finance API using pandas-datareader, it's cached with [request-cache](https://github.com/reclosedev/requests-cache) library is sqlite db, so any subsequent testing and changes in model parameters with same underlying instrument won't result in duplicated request for fethcing already fetched data.
 
-This implementation was done as project work on the course [Special Functions (Applied Mathematics)](https://www.etf.bg.ac.rs/en/fis/karton_predmeta/13M081SPEF-2013) on Master's degree in Software Engineering.
-
 ## Streamlit web app  
 
 1. Black-Scholes model    
